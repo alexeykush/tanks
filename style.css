@@ -1,0 +1,65 @@
+body,html{
+	overflow: hidden;
+}
+
+#table{
+	margin:0 auto;
+	border-collapse: collapse;
+	overflow: hidden;
+	border:1px solid #000;
+	background: #000;
+}
+
+.bullet{
+	border-radius: 50%;
+	background: grey;
+	position: absolute;
+}
+
+#table td.brick{
+	background: url('img/brick.svg') no-repeat;
+	background-size: cover;
+}
+
+#table td.grass{
+	background: url('img/grass.svg') no-repeat;
+	background-size: cover;
+}
+
+#table td.water{
+	background: url('img/water.svg') no-repeat;
+	background-size: cover;
+}
+
+#table td.metal{
+	background: url('img/metal.svg') no-repeat;
+	background-size: cover;
+}
+
+
+.main{
+	width: 50%;
+	height: 85vh;
+	background: #000;
+	color: red;
+	font-size:125px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.button{
+	width: 200px;
+	height: 50px;
+	border:none;
+	outline: none;
+	cursor:pointer;
+	position: absolute;
+	bottom:25px;
+	left:50%;
+	transform:translateX(-50%);
+	background: green;
+	font-size:24px;
+}
